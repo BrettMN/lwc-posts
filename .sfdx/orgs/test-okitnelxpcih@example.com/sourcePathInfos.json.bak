@@ -2,14 +2,14 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
-            "modifiedTime": 1546912027000,
+            "modifiedTime": 1547244815000,
             "changeTime": 1546912027568,
             "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": true
         }
@@ -17,14 +17,14 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
-            "modifiedTime": 1546912027000,
+            "modifiedTime": 1547244815000,
             "changeTime": 1546912027570,
             "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -32,29 +32,27 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default",
             "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1547244815000,
+            "changeTime": 1547244215221,
+            "contentHash": "c5007fa71de941b02ed5b9b29033aabc9f4448a2",
             "isMetadataFile": false,
-            "size": 128,
-            "modifiedTime": 1546912027000,
-            "changeTime": 1546912027576,
-            "contentHash": "7334b1e8716ee057f8863fce77d3933d5bd9d984",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/aura",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/aura",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 64,
             "modifiedTime": 1545933646056,
             "changeTime": 1545933646056,
             "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -62,14 +60,14 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
-            "modifiedTime": 1546912027000,
+            "modifiedTime": 1547244815000,
             "changeTime": 1546912027580,
             "contentHash": "b82700a415a37b53b87912a77b17386959fc2017",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -77,14 +75,14 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
-            "modifiedTime": 1546912027000,
+            "modifiedTime": 1547244815000,
             "changeTime": 1546912027585,
             "contentHash": "580faa86fb9b4444bde19b1af3c683503fefdfed",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -92,29 +90,28 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent/firstComponent.html",
         {
-            "state": "n",
+            "state": "u",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent/firstComponent.html",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 99,
-            "modifiedTime": 1546912024465,
-            "changeTime": 1546912024465,
-            "contentHash": "ff519e787af967bde9e76c1a58111d7959de85d5",
+            "size": 1139,
+            "modifiedTime": 1547244813785,
+            "changeTime": 1547244813785,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "0c4b3b57ba26f03d6df577ef11cf66537f1e0053"
         }
     ],
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent/firstComponent.js",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent/firstComponent.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 104,
             "modifiedTime": 1546464789655,
             "changeTime": 1546464790612,
             "contentHash": "658b4c46e004331fe7efd17407612e4d10ed2e57",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -122,14 +119,14 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent/firstComponent.js-meta.xml",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/lwc/firstComponent/firstComponent.js-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 375,
             "modifiedTime": 1546464944694,
             "changeTime": 1546464944694,
             "contentHash": "6c8288b07a1cf760a7ed2b0b070abd5e8a1d1f40",
+            "isMetadataFile": true,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -137,16 +134,68 @@
     [
         "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look",
         {
-            "state": "n",
             "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 320,
-            "modifiedTime": 1547243486000,
+            "modifiedTime": 1547244815000,
             "changeTime": 1547243486799,
             "contentHash": "62533bf04610bd2b3dd430aef44fc35fe8f23ec0",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/settings/OrgPreference.settings-meta.xml",
+        {
+            "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/settings/OrgPreference.settings-meta.xml",
+            "isDirectory": false,
+            "size": 6383,
+            "modifiedTime": 1547244215219,
+            "changeTime": 1547244215219,
+            "contentHash": "53153da293978b02d191b6ae64f72eae1e200c56",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/flexipages/Home_Page_Default.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/flexipages/Home_Page_Default.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 1728,
+            "modifiedTime": 1547244215222,
+            "changeTime": 1547244215222,
+            "contentHash": "6e45baa020710afa6c6da063942e1565b4cba5eb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/settings",
+        {
+            "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/settings",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1547244232000,
+            "changeTime": 1547244215218,
+            "contentHash": "51a767161ecb76df77be39042e42cbb2d91005fb",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/flexipages",
+        {
+            "sourcePath": "/Users/brett/Documents/Just Some Apps/internal/blog/lwc-first-look/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1547244232000,
+            "changeTime": 1547244215222,
+            "contentHash": "8db0c01f640acc7ba1b555b8d1a44b12fe1de7dd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]
