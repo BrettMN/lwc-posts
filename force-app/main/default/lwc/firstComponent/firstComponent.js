@@ -1,3 +1,5 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, api } from 'lwc';
 
-export default class FirstComponent extends LightningElement {}
+export default class FirstComponent extends LightningElement {
+  @api label = 'WIPDeveloper.com  !!!';
+}
