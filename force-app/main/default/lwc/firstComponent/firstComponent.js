@@ -7,10 +7,11 @@ export default class FirstComponent extends LightningElement {
   id = userId;
 
   handleClick() {
-
     window.console.log('clicked');
 
-    this.label = this.label.split('').reverse().join('');
-
+    this.label = this.label
+      .split('')
+      .reverse()
+      .join('');
   }
 }
