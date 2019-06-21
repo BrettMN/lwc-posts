@@ -1,0 +1,31 @@
+<template>
+  <lightning-record-view-form record-id={id} object-api-name="User">
+    <div class="slds-page-header">
+      <div class="slds-page-header__row">
+        <div class="slds-page-header__col-title">
+          <div class="slds-media">
+            <div class="slds-media__figure">
+              <span class="slds-icon_container" title="WIPDeveloper.com">
+                👩‍💻 👨‍💻<span class="slds-assistive-text">
+                  <lightning-output-field field-name="CompanyName" variant="label-hidden"></lightning-output-field>
+                </span>
+              </span>
+            </div>
+            <div class="slds-media__body">
+              <div class="slds-page-header__name">
+                <div class="slds-page-header__name-title">
+                  <h1 onclick={handleClick}>
+                    <span class="slds-page-header__title slds-truncate" title={label}>
+                      <lightning-output-field field-name="CompanyName" variant="label-hidden"></lightning-output-field>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+              <p class="slds-page-header__name-meta">Using Data Service</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </lightning-record-view-form>
+</template>
