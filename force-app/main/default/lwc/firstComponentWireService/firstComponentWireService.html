@@ -1,0 +1,36 @@
+<template>
+  <div class="slds-page-header">
+    <div class="slds-page-header__row">
+      <div class="slds-page-header__col-title">
+        <div class="slds-media">
+          <div class="slds-media__figure">
+            <span class="slds-icon_container" title="WIPDeveloper.com">
+              👩‍💻 👨‍💻<span class="slds-assistive-text">
+                {companyName}
+              </span>
+            </span>
+          </div>
+          <div class="slds-media__body">
+            <div class="slds-page-header__name">
+              <div class="slds-page-header__name-title">
+                <h1 onclick={handleClick}>
+                  <span class="slds-page-header__title slds-truncate" title={label}>
+                    {companyName}
+                  </span>
+                </h1>
+              </div>
+            </div>
+            <p class="slds-page-header__name-meta">Using Wire Service</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p>
+    {name}
+    {phone}
+    {companyName}
+    {email}
+  </p>
+</template>
