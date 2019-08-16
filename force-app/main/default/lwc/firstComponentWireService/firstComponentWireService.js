@@ -5,7 +5,7 @@ import { getRecord } from 'lightning/uiRecordApi';
 import userId from '@salesforce/user/Id';
 
 export default class firstComponentWireService extends LightningElement {
-  @api label = 'WIPDeveloper.com  !!!';
+  @api label;
 
   id = userId;
 
