@@ -3,13 +3,27 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/first-component": [
+            "c/firstComponent": [
                 "firstComponent/firstComponent.js"
+            ],
+            "c/firstComponentApex": [
+                "firstComponentApex/firstComponentApex.js"
+            ],
+            "c/firstComponentDataService": [
+                "firstComponentDataService/firstComponentDataService.js"
+            ],
+            "c/firstComponentWireService": [
+                "firstComponentWireService/firstComponentWireService.js"
             ]
         }
     },
     "include": [
         "**/*",
         "../../../../.sfdx/typings/lwc/**/*.d.ts"
-    ]
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
 }
