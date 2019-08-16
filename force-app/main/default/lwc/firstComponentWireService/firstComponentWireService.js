@@ -2,12 +2,12 @@ import { LightningElement, api, wire } from 'lwc';
 
 import { getRecord } from 'lightning/uiRecordApi';
 
-import id from '@salesforce/user/Id';
+import userId from '@salesforce/user/Id';
 
 export default class firstComponentWireService extends LightningElement {
   @api label = 'WIPDeveloper.com  !!!';
 
-  id = id;
+  id = userId;
 
   @wire(getRecord, {
     recordId: '$id',
@@ -16,6 +16,7 @@ export default class firstComponentWireService extends LightningElement {
   user;
 
   get name() {
+    window.console.log('name');
     let returnValue = '';
     if (
       this.user &&
