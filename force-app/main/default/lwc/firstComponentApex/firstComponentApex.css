@@ -1,0 +1,11 @@
+:host .slds-page-header {
+  background-color: lightblue;
+}
+
+:host(:hover) .slds-page-header {
+  background-color: white;
+}
+
+:host p.slds-page-header__name-meta {
+  color: blue;
+}

@@ -10,7 +10,7 @@ public with sharing class firstComponentController {
 
     }
 
-    @AuraEnabled
+    @AuraEnabled(cacheable=true)
     public static Map<String, Object> init(){
         Map<String, Object> returnObject = new Map<String,Object>();
         returnObject.put('success', false);

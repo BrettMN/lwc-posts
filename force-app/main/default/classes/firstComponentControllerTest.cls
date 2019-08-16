@@ -27,11 +27,11 @@ public with sharing class firstComponentControllerTest {
         insert contextUser;
 
         Map<String,Object> results = new Map<String,Object>();
-        Test.startTest();
+        // Test.startTest();
         System.runAs(contextUser){
             results =  firstComponentController.init(); 
         }
-        Test.stopTest();
+        // Test.stopTest();
 
         System.assertNotEquals(null, results); 
         System.assertEquals(true, results.get('success'));
@@ -69,11 +69,11 @@ public with sharing class firstComponentControllerTest {
         firstComponentController.testException = true;
 
         Map<String,Object> results = new Map<String,Object>();
-        Test.startTest();
+        // Test.startTest();
         System.runAs(contextUser){
             results =  firstComponentController.init(); 
         }
-        Test.stopTest();
+        // Test.stopTest();
 
         System.assertNotEquals(null, results); 
         System.assertEquals(false, results.get('success'));
