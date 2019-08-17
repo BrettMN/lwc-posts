@@ -1,36 +1,38 @@
 import { LightningElement, api, wire, track } from 'lwc';
+
 import init from '@salesforce/apex/firstComponentController.init';
 
 export default class firstComponentApex extends LightningElement {
-  @api label = 'WIPDeveloper.com  !!!';
+  @api label;
 
   @track user;
 
   @wire(init)
   handleInit({ error, data }) {
-    window.console.log('init');
+    window.console.log('init', { error }, { data });
+
     if (error) {
-      window.console.log(`Something went wrong ${error}`);
-      window.console.log(JSON.parse(JSON.stringify(error)));
+      window.console.log('something went wrong');
     } else if (data) {
-      window.console.log(JSON.parse(JSON.stringify(data)));
       this.user = data.user;
     } else {
-      window.console.log('hmmm');
+      window.console.log('hmm');
     }
   }
 
   get name() {
+    window.console.log('name');
     return this.user ? this.user.Name : '';
+  }
+
+  get email() {
+    return this.user ? this.user.Email : '';
   }
 
   get companyName() {
     return this.user ? this.user.CompanyName : '';
   }
 
-  get email() {
-    return this.user ? this.user.Email : '';
-  }
   get phone() {
     return this.user ? this.user.Phone : '';
   }
