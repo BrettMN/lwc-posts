@@ -14,6 +14,9 @@
             ],
             "c/firstComponentWireService": [
                 "firstComponentWireService/firstComponentWireService.js"
+            ],
+            "c/htmlElementPropertiesAsLightningElementPropertiesTrial": [
+                "htmlElementPropertiesAsLightningElementPropertiesTrial/htmlElementPropertiesAsLightningElementPropertiesTrial.js"
             ]
         }
     },

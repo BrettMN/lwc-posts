@@ -2,15 +2,15 @@ import { LightningElement, api, wire } from 'lwc';
 
 import { getRecord } from 'lightning/uiRecordApi';
 
-import userId from '@salesforce/user/Id';
+import UserId from '@salesforce/user/Id';
 
 export default class firstComponentWireService extends LightningElement {
   @api label;
 
-  id = userId;
+  userId = UserId;
 
   @wire(getRecord, {
-    recordId: '$id',
+    recordId: '$userId',
     fields: ['User.Name', 'User.Email', 'User.CompanyName', 'User.Phone']
   })
   user;
