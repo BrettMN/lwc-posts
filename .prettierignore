@@ -1,5 +1,2 @@
-**/lwc/**/*.css
-**/lwc/**/*.html
-**/lwc/**/*.svg
-**/lwc/**/*.xml
+**/staticresources/**
 .sfdx
