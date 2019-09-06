@@ -11,4 +11,5 @@ selenium-client-jars/
 test/artifacts
 
 
-IlluminatesCloud/
+IlluminatedCloud
+**.icloud
