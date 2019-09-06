@@ -3,6 +3,9 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/child": [
+                "child/child.js"
+            ],
             "c/firstComponent": [
                 "firstComponent/firstComponent.js"
             ],
@@ -17,6 +20,9 @@
             ],
             "c/htmlElementPropertiesAsLightningElementPropertiesTrial": [
                 "htmlElementPropertiesAsLightningElementPropertiesTrial/htmlElementPropertiesAsLightningElementPropertiesTrial.js"
+            ],
+            "c/parent": [
+                "parent/parent.js"
             ]
         }
     },
