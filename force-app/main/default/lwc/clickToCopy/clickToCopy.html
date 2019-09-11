@@ -1,0 +1,18 @@
+<!-- Click To Copy -->
+<template>
+    <lightning-card title="Copy to Clipboard">
+        <div class="app slds-p-around_x-large">
+            <div class="slds-p-vertical_small">
+                <input type="text" class="copy-me" value="Copy Me!" />
+            </div>
+
+            <div class="slds-p-vertical_small">
+                <button onclick={copyToClipboard}>Copy text</button>
+            </div>
+
+            <div class="slds-p-vertical_small">
+                <input type="text" placeholder="paste here to verify" />
+            </div>
+        </div>
+    </lightning-card>
+</template>
