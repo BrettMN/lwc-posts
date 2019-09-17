@@ -2,8 +2,9 @@
 <template>
     <div class="slds-p-around_medium">
         <p>
-            Child - {ourProperty}
+            {childText} - {ourProperty}
         </p>
         <button onclick={causeChildEvent}>Cause childEvent</button>
+        <button onclick={resetChildText}>reset text</button>
     </div>
 </template>

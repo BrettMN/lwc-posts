@@ -10,7 +10,12 @@
         <c-child
             onchildevent={handleChildEvent}
             our-property="From Parent"
+            class="one"
         ></c-child>
-        <c-child onchildevent={handleChildEvent}></c-child>
+        <c-child onchildevent={handleChildEvent} class="two"></c-child>
+        <div slot="footer">
+            <button onclick={setChildOneText}>set child one text</button>
+            <button onclick={setChildTwoText}>set child two text</button>
+        </div>
     </lightning-card>
 </template>
