@@ -1,0 +1,17 @@
+<!-- Value List -->
+<template>
+    <lightning-card title="Values List">
+        <div class="slds-p-around--medium">
+            List here
+            <!-- TODO: Add list here -->
+
+            <ul>
+                <li for:each={values} for:item="value" key={value}>
+                    {value}
+                </li>
+            </ul>
+            <button onclick={addOne}>add one</button>
+            <button onclick={subtrackOne}>subtrack one</button>
+        </div>
+    </lightning-card>
+</template>
