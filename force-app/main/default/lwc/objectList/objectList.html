@@ -1,0 +1,14 @@
+<!-- Object List -->
+<template>
+    <lightning-card title="Values List">
+        <div class="slds-p-around--medium">
+            List here
+            <!-- TODO: Add list here -->
+            <ul>
+                <li for:each={accounts} for:item="account" key={account.Id}>
+                    {account.Name} - {account.Id}
+                </li>
+            </ul>
+        </div>
+    </lightning-card>
+</template>
