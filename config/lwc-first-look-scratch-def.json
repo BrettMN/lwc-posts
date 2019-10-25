@@ -1,0 +1,9 @@
+{
+  "orgName": "lwc-first-look",
+  "edition": "Developer",
+  "features": [],
+  "orgPreferences": {
+    "enabled": [],
+    "disabled": ["S1EncryptedStoragePref2"]
+  }
+}

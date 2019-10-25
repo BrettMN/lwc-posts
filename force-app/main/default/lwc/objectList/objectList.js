@@ -3,7 +3,10 @@ import { LightningElement, wire, track } from 'lwc';
 import init from '@salesforce/apex/ObjectListController.init';
 
 export default class ObjectList extends LightningElement {
-    @track accounts;
+    @track
+    accounts;
+    @track
+    selectedId;
 
     @wire(init)
     handleInit({ error, data }) {
@@ -16,6 +19,9 @@ export default class ObjectList extends LightningElement {
         } else {
             this.log('hmm');
         }
+    }
+    handleObjectListItemSelected(event){
+        this.selectedId = event.detail;
     }
 
     log(...stuff) {
