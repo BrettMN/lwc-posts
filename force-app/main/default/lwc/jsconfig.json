@@ -39,9 +39,6 @@
             "c/parent": [
                 "parent/parent.js"
             ],
-            "c/thirdPartyScript": [
-                "thirdPartyScript/thirdPartyScript.js"
-            ],
             "c/valueList": [
                 "valueList/valueList.js"
             ],
