@@ -6,6 +6,9 @@
             "c/child": [
                 "child/child.js"
             ],
+            "c/clickToCopy": [
+                "clickToCopy/clickToCopy.js"
+            ],
             "c/firstComponent": [
                 "firstComponent/firstComponent.js"
             ],
@@ -18,11 +21,32 @@
             "c/firstComponentWireService": [
                 "firstComponentWireService/firstComponentWireService.js"
             ],
+            "c/getUserInfo": [
+                "getUserInfo/getUserInfo.js"
+            ],
             "c/htmlElementPropertiesAsLightningElementPropertiesTrial": [
                 "htmlElementPropertiesAsLightningElementPropertiesTrial/htmlElementPropertiesAsLightningElementPropertiesTrial.js"
             ],
+            "c/objectList": [
+                "objectList/objectList.js"
+            ],
+            "c/objectListItem": [
+                "objectListItem/objectListItem.js"
+            ],
+            "c/objectListWithGetListUi": [
+                "objectListWithGetListUi/objectListWithGetListUi.js"
+            ],
             "c/parent": [
                 "parent/parent.js"
+            ],
+            "c/thirdPartyScript": [
+                "thirdPartyScript/thirdPartyScript.js"
+            ],
+            "c/valueList": [
+                "valueList/valueList.js"
+            ],
+            "c/samples": [
+                "../staticresources/Chartjs/samples/samples.js"
             ]
         }
     },

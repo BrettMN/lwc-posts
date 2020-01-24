@@ -1,0 +1,18 @@
+<template>
+    <lightning-card>
+        <div>
+
+
+            <h1>user</h1>
+            <p>{showUser}</p>
+            <template if:true={showUser}>
+                {user.data.fields.Name.value}
+            </template>
+
+            <button onclick={logUser}>logUser</button>
+
+            <p>profile {profile}</p>
+        </div>
+
+    </lightning-card>
+</template>

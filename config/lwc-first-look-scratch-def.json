@@ -1,9 +1,10 @@
 {
-  "orgName": "lwc-first-look",
-  "edition": "Developer",
-  "features": [],
-  "orgPreferences": {
-    "enabled": [],
-    "disabled": ["S1EncryptedStoragePref2"]
-  }
+    "orgName": "lwc-first-look",
+    "edition": "Developer",
+    "features": [],
+    "settings": {
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        }
+    }
 }
