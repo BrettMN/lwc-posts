@@ -1,13 +1,13 @@
-import { LightningElement, api, wire } from 'lwc';
+import { LightningElement, wire } from 'lwc';
 
 import { getRecord } from 'lightning/uiRecordApi';
 
 import UserId from '@salesforce/user/Id';
-import UserProfile from '@salesforce/user/Profile';
+// import UserProfile from '@salesforce/user/Profile';
 
 export default class getUserInfo extends LightningElement {
     userId = UserId || '0050t000003Sz6jAAC';
-    profile = UserProfile;
+    // profile = UserProfile;
 
     @wire(getRecord, {
         recordId: '$userId',

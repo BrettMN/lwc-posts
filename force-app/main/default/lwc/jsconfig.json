@@ -3,6 +3,9 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/accessStaticResource": [
+                "accessStaticResource/accessStaticResource.js"
+            ],
             "c/child": [
                 "child/child.js"
             ],
@@ -41,9 +44,6 @@
             ],
             "c/valueList": [
                 "valueList/valueList.js"
-            ],
-            "c/samples": [
-                "../staticresources/Chartjs/samples/samples.js"
             ]
         }
     },
