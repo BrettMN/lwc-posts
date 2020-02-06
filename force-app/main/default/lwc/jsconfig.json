@@ -6,6 +6,9 @@
             "c/accessStaticResource": [
                 "accessStaticResource/accessStaticResource.js"
             ],
+            "c/accessStaticResourceLoadStyle": [
+                "accessStaticResourceLoadStyle/accessStaticResourceLoadStyle.js"
+            ],
             "c/child": [
                 "child/child.js"
             ],
