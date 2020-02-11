@@ -1,0 +1,65 @@
+{
+  "_from": "legra",
+  "_id": "legra@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-LznssSGp+1BSB8FqxX+rU8a3lsc4aJI0SroxMDzgpH0lIq2CtDrailjv20+rwGAlmA2W4jsEaCzzDOhi/VJ8Jg==",
+  "_location": "/legra",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "legra",
+    "name": "legra",
+    "escapedName": "legra",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/legra/-/legra-0.2.0.tgz",
+  "_shasum": "ccc0879adbc4993999c3f70ac37c687c4c0527d4",
+  "_spec": "legra",
+  "_where": "/Users/brett/Documents/Just Some Apps/workspace/internal/blog/lwc-first-look",
+  "author": {
+    "name": "Preet Shihn",
+    "email": "preetshihn@gmail.com"
+  },
+  "browser": "lib/legra.iife.js",
+  "bugs": {
+    "url": "https://github.com/pshihn/legra/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Create graphics using Lego like brick shapes.",
+  "devDependencies": {
+    "rollup": "^1.27.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "homepage": "https://legrajs.com",
+  "keywords": [
+    "graphics",
+    "lego",
+    "lego bricks",
+    "canvas",
+    "dataviz"
+  ],
+  "license": "MIT",
+  "main": "lib/legra.umd.js",
+  "module": "lib/legra.js",
+  "name": "legra",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/legra.git"
+  },
+  "scripts": {
+    "build": "rm -rf bin && tsc && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "bin/legra.d.ts",
+  "version": "0.2.0"
+}

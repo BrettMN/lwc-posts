@@ -1,21 +1,21 @@
 {
-  "name": "lwc-first-look",
-  "version": "1.0.0",
-  "description": "Take a look at Lighting Web Components",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --debug-check ./force-app/main/default/**/*.{trigger,cls}",
-    "prettier-server-start": "node ./node_modules/prettier-plugin-apex/bin/start-apex-server.js",
-    "prettier-server-stop": "node ./node_modules/prettier-plugin-apex/bin/stop-apex-server.js"
-  },
-  "keywords": [
-    "LWC"
-  ],
-  "author": "Brett",
-  "license": "MIT",
-  "dependencies": {
-    "prettier": "^1.18.2",
-    "prettier-plugin-apex": "^1.0.0-rc.6"
-  }
+    "name": "lwc-posts",
+    "version": "1.0.0",
+    "description": "Take a look at Lighting Web Components",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier --debug-check ./force-app/main/default/**/*.{trigger,cls}",
+        "prettier-server-start": "node ./node_modules/prettier-plugin-apex/bin/start-apex-server.js",
+        "prettier-server-stop": "node ./node_modules/prettier-plugin-apex/bin/stop-apex-server.js"
+    },
+    "keywords": [
+        "LWC"
+    ],
+    "author": "Brett Nelson <Brett@WIPDeveloper.com> (https://WIPDeveloper.com/)",
+    "license": "MIT",
+    "dependencies": {
+        "prettier": "^1.18.2",
+        "prettier-plugin-apex": "^1.0.0-rc.6"
+    }
 }

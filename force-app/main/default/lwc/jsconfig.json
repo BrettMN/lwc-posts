@@ -6,6 +6,9 @@
             "c/accessStaticResource": [
                 "accessStaticResource/accessStaticResource.js"
             ],
+            "c/accessStaticResourceLoadScript": [
+                "accessStaticResourceLoadScript/accessStaticResourceLoadScript.js"
+            ],
             "c/accessStaticResourceLoadStyle": [
                 "accessStaticResourceLoadStyle/accessStaticResourceLoadStyle.js"
             ],
