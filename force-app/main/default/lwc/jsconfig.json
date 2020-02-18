@@ -19,7 +19,7 @@
                 "clickToCopy/clickToCopy.js"
             ],
             "c/firstComponent": [
-                "firstComponent/firstComponent.js"
+                "../../questions/lwc/cssTest/cssTest.jsstComponent.js"
             ],
             "c/firstComponentApex": [
                 "firstComponentApex/firstComponentApex.js"
@@ -58,7 +58,7 @@
         "../../../../.sfdx/typings/lwc/**/*.d.ts"
     ],
     "typeAcquisition": {
-        "include": [
+        "include": [, "../../questions/lwc/cssTest"
             "jest"
         ]
     }

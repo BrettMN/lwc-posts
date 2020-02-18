@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/accessStaticResource": [
+                "../../default/lwc/accessStaticResource/accessStaticResource.js"
+            ],
+            "c/accessStaticResourceLoadScript": [
+                "../../default/lwc/accessStaticResourceLoadScript/accessStaticResourceLoadScript.js"
+            ],
+            "c/accessStaticResourceLoadStyle": [
+                "../../default/lwc/accessStaticResourceLoadStyle/accessStaticResourceLoadStyle.js"
+            ],
+            "c/child": ["../../default/lwc/child/child.js"],
+            "c/clickToCopy": ["../../default/lwc/clickToCopy/clickToCopy.js"],
+            "c/firstComponent": ["cssTest/cssTest.jsstComponent.js"],
+            "c/firstComponentApex": [
+                "../../default/lwc/firstComponentApex/firstComponentApex.js"
+            ],
+            "c/firstComponentDataService": [
+                "../../default/lwc/firstComponentDataService/firstComponentDataService.js"
+            ],
+            "c/firstComponentWireService": [
+                "../../default/lwc/firstComponentWireService/firstComponentWireService.js"
+            ],
+            "c/getUserInfo": ["../../default/lwc/getUserInfo/getUserInfo.js"],
+            "c/htmlElementPropertiesAsLightningElementPropertiesTrial": [
+                "../../default/lwc/htmlElementPropertiesAsLightningElementPropertiesTrial/htmlElementPropertiesAsLightningElementPropertiesTrial.js"
+            ],
+            "c/objectList": ["../../default/lwc/objectList/objectList.js"],
+            "c/objectListItem": [
+                "../../default/lwc/objectListItem/objectListItem.js"
+            ],
+            "c/objectListWithGetListUi": [
+                "../../default/lwc/objectListWithGetListUi/objectListWithGetListUi.js"
+            ],
+            "c/parent": ["../../default/lwc/parent/parent.js"],
+            "c/valueList": ["../../default/lwc/valueList/valueList.js"]
+        }
+    }
+}
