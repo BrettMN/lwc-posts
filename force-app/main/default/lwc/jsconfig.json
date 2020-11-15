@@ -58,8 +58,14 @@
         "../../../../.sfdx/typings/lwc/**/*.d.ts"
     ],
     "typeAcquisition": {
-        "include": [, "../../questions/lwc/cssTest"
+        "include": [
+            "../../questions/lwc/cssTest",
             "jest"
+        ]
+    },
+    "paths": {
+        "c/*": [
+            "*"
         ]
     }
 }

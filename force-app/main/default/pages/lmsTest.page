@@ -1,0 +1,21 @@
+<apex:page>
+    <apex:includeLightning />
+
+    <div id="lightningvf" />
+
+    <script>
+        $Lightning.use("c:lmsTestApp", function () {
+            $Lightning.createComponent("c:lmsTest",
+                {},
+                "lightningvf",
+                function (cmp) {
+                    // TODO: handle event
+                    document.querySelector('c-lms-test').addEventListener('hellofromlwc', (e) => {
+                        console.log(e.detail);
+                    });
+
+                }
+            );
+        });
+    </script>
+</apex:page>
