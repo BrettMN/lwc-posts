@@ -14,8 +14,8 @@
     ],
     "author": "Brett Nelson <Brett@WIPDeveloper.com> (https://WIPDeveloper.com/)",
     "license": "MIT",
-    "dependencies": {
-        "prettier": "^1.18.2",
-        "prettier-plugin-apex": "^1.0.0-rc.6"
+    "devDependencies": {
+        "prettier": "2.3.2",
+        "prettier-plugin-apex": "1.10.0"
     }
 }
